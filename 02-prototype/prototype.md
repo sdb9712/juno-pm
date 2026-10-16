@@ -4,13 +4,19 @@
 
 ## Prototype link
 
-_The public share URL from your build tool. No share URL? A screenshot of the working flow is fine, the prompt is what is assessed._
-
+https://luxury-dolphin-d21501.netlify.app/ 
 _____
 
 ## What it demonstrates
 
-_The one flow this prototype proves._
+The prototype proves one flow: a scattered stream of tickets from email, Slack and Jira becomes a ranked, explained list of problems that a PM can act on.
+
+Collect. 30 tickets from three channels land in one stream.
+Cluster. Juno merges similar tickets from different customers into one problem: 30 tickets become 9 problems.
+Score. Each problem gets Reach × Severity × Business Risk, using unique customers, ARR and churn signals. The override rule makes sure a critical failure at a key customer always goes first.
+Decide. The PM opens the top problem and sees why it is there, who is affected and how much money is at risk. The PM can adjust R, S or B, takes a ready-to-work developer task, and traces every claim back to the source tickets.
+
+Key proof point: priority follows business impact, not ticket volume. One critical pipeline failure at three customers worth $1.45M ARR, including the largest one renewing in 28 days, outranks a slow export reported in 8 tickets by 7 small customers.
 
 _____
 
