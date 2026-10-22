@@ -65,11 +65,14 @@ Sets and updates the R × S × B score and priority of tasks in its dashboard - 
 
 ## 03 Loop · AI Costs & Latency
 
-**Turn ceiling and escalation**
+*Turn ceiling and escalation**
 
-Just one loop
+Data sources: Juno makes up to 2 attempts to connect to each source (Slack, Jira, Notion, email, CRM). If a source still does not respond, Juno creates the task without it and marks the missing fields as “no data”.
+Task: up to 3 turns per task — (1) Juno creates the task; (2) Juno always re-checks it against the verification checks, even when everything was collected successfully; (3) if any required item is missing, Juno makes one more attempt to fill it in. If the task still fails, it is created with the PM Review flag and the reason shown.
 
 **Latency and cost target**
+
+A new signal appears on the dashboard by the next scheduled run (every 2 hours, 8 am – 8 pm). Cost per task is not set yet: it will be measured during testing in Module 5.
 
 -
 
